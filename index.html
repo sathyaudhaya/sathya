@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Attendance Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Attendance Form</h1>
+        <form id="attendanceForm">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="attendanceStatus">Attendance Status:</label>
+            <select id="attendanceStatus" name="attendanceStatus" required>
+                <option value="present">Present</option>
+                <option value="absent">Absent</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
